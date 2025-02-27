@@ -20,7 +20,7 @@ const BookingGrid = ({ slots, unavailableSlots, holidays, onSelectSlot }) => {
       <table className="w-full border-collapse border border-gray-400 shadow-lg">
         <thead>
           <tr className="bg-gray-300">
-            <th className="border border-gray-400 p-3">⏰ Time Slots</th>
+            <th className="border border-gray-400 p-3"> Time Slots</th>
             {uniqueDates.map((date) => (
               <th key={date} className="border border-gray-400 p-3">{date}</th>
             ))}
